@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+     * {
+          box-sizing: border-box;
+          margin: 20px;
+          padding: 20px;
+
+     }
+     body{
+    background: url(nubes.jpg) ;
+    background-size: cover;
+
+     }
+
+
+</style>
+
+</head>
+<body>
+<form action="enviar.php" method="post" style="margin-left: 500px;">
+<h2 style="font-family: 'Times New Roman', Times, serif; color: rgb(247, 38, 38); font-size: 50px;">FORMULARIO</h2>
+
+<input type="text" name="nombre" placeholder="nombre" required style="background: #000;">
+<br>
+<input type="text" name="correo" placeholder="correo" required style="background: #000;">
+<br>
+<input type="text" name="pais" placeholder="pais" required style="background: #000;">     <!--------cuadro como textarea pero noajustable-->
+<br>
+<input type="text" name="telefono" placeholder="telefono" required style="background: #000;">
+<br>
+<textarea name="Mensaje" id="" cols="40" rows="10" placeholder="telefono" style="background: #000;"></textarea>   <!--TEXTAREA cuadro completar ajustable,PLACEHOLDER para q se vea palabra suave antes de completar-->
+<br>
+<select name="curso" id="" style="background: #e83232;">
+
+<option value="">HTML</option>
+<option value="">CSS</option>
+<option value="">PHP</option>
+</select>
+<br><br>
+<textarea name="Mensaje" id="" cols="40" rows="10" style="background: #f96060;" placeholder="Deja un comentario"></textarea>  <!---cuadro para completar sin nada dentro pero ajustable-->
+<br>
+<input type="submit" value="Enviar" style="background: #e94848;">
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
